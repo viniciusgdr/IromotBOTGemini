@@ -2,6 +2,8 @@
 
 TomoriBOT é um bot de WhatsApp alimentado por IA, que utiliza a API da Gemini (Google) para responder os usuários de forma inteligente e natural usando textos ou audios. Nele, você pode interagir com o bot através de mensagens de texto ou áudios e baixar músicas do YouTube de forma rápida e prática.
 <img src="/public/image-banner.png" alt="Banner"/>
+## Nota
+Esta versão da TomoriBOT oferecida gratuitamente não é igual a versão paga. Na versão paga, oferecemos pronto para uso no seu grupo com diversos comandos de moderação, automação e soluções rápidas. Consulte os preços e funções em: https://tomoribot.gdr.dev.br
 
 ## Sumário
 

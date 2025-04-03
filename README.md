@@ -1,9 +1,9 @@
-# TomoriBOT WhatsApp - Alimentado por IA
+# IromotBOT WhatsApp - Alimentado por IA
 
-TomoriBOT é um bot de WhatsApp alimentado por IA, que utiliza a API da Gemini (Google) para responder os usuários de forma inteligente e natural usando textos ou audios. Nele, você pode interagir com o bot através de mensagens de texto ou áudios e baixar músicas do YouTube de forma rápida e prática.
+IromotBOT é um bot de WhatsApp alimentado por IA, que utiliza a API da Gemini (Google) para responder os usuários de forma inteligente e natural usando textos ou audios. Nele, você pode interagir com o bot através de mensagens de texto ou áudios e baixar músicas do YouTube de forma rápida e prática.
 <img src="/public/image-banner.png" alt="Banner"/>
 ## Nota
-Esta versão da TomoriBOT oferecida gratuitamente não é igual a versão paga. Na versão paga, oferecemos pronto para uso no seu grupo com diversos comandos de moderação, automação e soluções rápidas. Consulte os preços e funções em: https://tomoribot.gdr.dev.br
+Esta versão da IromotBOT oferecida gratuitamente não é igual a versão paga. Na versão paga, oferecemos pronto para uso no seu grupo com diversos comandos de moderação, automação e soluções rápidas. Consulte os preços e funções em: https://Iromotbot.gdr.dev.br
 
 ## Sumário
 
@@ -20,9 +20,9 @@ Esta versão da TomoriBOT oferecida gratuitamente não é igual a versão paga. 
 
 ## Soluções/Utilidades
 
-Sabemos que a maioria das pessoas utilizam o WhatsApp para se comunicar com amigos e familiares, mas também para se entreter com amigos. Pensando nisso, o TomoriBOT foi criado para facilitar a vida dos usuários, trazendo uma experiência única e inovadora. Com ele, você pode baixar músicas do YouTube, baixar vídeos do Twitter, Instagram e TikTok, criar figurinhas, jogar uma moeda e muito mais.
+Sabemos que a maioria das pessoas utilizam o WhatsApp para se comunicar com amigos e familiares, mas também para se entreter com amigos. Pensando nisso, o IromotBOT foi criado para facilitar a vida dos usuários, trazendo uma experiência única e inovadora. Com ele, você pode baixar músicas do YouTube, baixar vídeos do Twitter, Instagram e TikTok, criar figurinhas, jogar uma moeda e muito mais.
 
-Além disso, muitas tarefas que antes eram feitas manualmente, agora podem ser feitas de forma automática, economizando tempo e esforço. Como por exemplo, baixar músicas do YouTube, que antes era necessário acessar um site, colar o link, esperar o download e por fim, baixar a música. Com o TomoriBOT, apenas enviando o nome da música que deseja baixar.
+Além disso, muitas tarefas que antes eram feitas manualmente, agora podem ser feitas de forma automática, economizando tempo e esforço. Como por exemplo, baixar músicas do YouTube, que antes era necessário acessar um site, colar o link, esperar o download e por fim, baixar a música. Com o IromotBOT, apenas enviando o nome da música que deseja baixar.
 
 ## Recursos
 
@@ -43,10 +43,10 @@ Além disso, muitas tarefas que antes eram feitas manualmente, agora podem ser f
 
 ## Eficiência
 
-O TomoriBOT foi desenvolvido para ser eficiente e rápido, permitindo que os usuários interajam com o bot de forma prática. Com ele, você pode baixar músicas do YouTube em poucos segundos, sem precisar acessar sites ou instalar programas. Além disso, o bot é capaz de reconhecer músicas em tempo real, permitindo que você descubra o nome da música que está tocando no ambiente. Caso esteja com preguiça de escrever, você pode enviar áudios para o bot e ele irá responder em áudio também.
+O IromotBOT foi desenvolvido para ser eficiente e rápido, permitindo que os usuários interajam com o bot de forma prática. Com ele, você pode baixar músicas do YouTube em poucos segundos, sem precisar acessar sites ou instalar programas. Além disso, o bot é capaz de reconhecer músicas em tempo real, permitindo que você descubra o nome da música que está tocando no ambiente. Caso esteja com preguiça de escrever, você pode enviar áudios para o bot e ele irá responder em áudio também.
 
 - 🚀 Suporta Chats Privados
-- 🚀 Suporta Grupos (Digitando "Tomori," na frente)
+- 🚀 Suporta Grupos (Digitando "Iromot," na frente)
 
 ## Tecnologias Utilizadas
 - Whatsmeow (API de WhatsApp)
@@ -60,19 +60,19 @@ O TomoriBOT foi desenvolvido para ser eficiente e rápido, permitindo que os usu
 
 ## Instalação
 
-Para instalar o TomoriBOT, você precisa ter o Node.js, Python, FFmpeg e o Go instalados em sua máquina. Após isso, basta clonar o repositório e instalar as dependências.
+Para instalar o IromotBOT, você precisa ter o Node.js, Python, FFmpeg e o Go instalados em sua máquina. Após isso, basta clonar o repositório e instalar as dependências.
 
 ```bash
 $ sudo apt-get install pkg-config libasound2-dev
 # Clone o repositório
-$ git clone https://github.com/viniciusgdr/TomoriBOTGemini
-$ cd TomoriBOTGemini
+$ git clone https://github.com/viniciusgdr/IromotBOTGemini
+$ cd IromotBOTGemini
 $ bash installer.sh
 ```
 
 ## Configuração
 
-Para configurar o TomoriBOT, você precisa criar um arquivo `.env` na raiz do projeto e adicionar as seguintes variáveis de ambiente.
+Para configurar o IromotBOT, você precisa criar um arquivo `.env` na raiz do projeto e adicionar as seguintes variáveis de ambiente.
 
 ```env
 GEMINI_APIKEY=YOUR_API_KEY
@@ -99,10 +99,10 @@ Para alterar o prompt, basta entrar no arquivo [gemini.go](src/services/gemini/g
 
 ## Arquitetura Robusta
 
-O TomoriBOT foi desenvolvido com uma arquitetura robusta, utilizando a API da Gemini (Google) para responder os usuários de forma inteligente e natural. Além disso, ele foi desenvolvido usando os princípios do Clean Architecture, que permite a fácil manutenção e escalabilidade do projeto.
+O IromotBOT foi desenvolvido com uma arquitetura robusta, utilizando a API da Gemini (Google) para responder os usuários de forma inteligente e natural. Além disso, ele foi desenvolvido usando os princípios do Clean Architecture, que permite a fácil manutenção e escalabilidade do projeto.
 Os módulos em Python e Node foram feitos para acelerar o desenvolvimento de diversos recursos que a linguagem oferece, como reconhecimento de músicas (Em Python) e Manipulação de arquivos Webp (Em Node).
 \*A Lib Whatsmeow não foi desacoplada 100% pelo fato que não tem outra lib que faça o mesmo trabalho.
 
 ## Privacidade
 
-O TomoriBOT respeita a privacidade dos usuários e não armazena nenhuma informação pessoal. Todas as mensagens trocadas com o bot são processadas em tempo real e não são armazenadas em nenhum banco de dados (ainda). Além disso, o bot não compartilha nenhuma informação com terceiros e não exibe anúncios. Todo conteúdo que é efetuado download de terceiros é provido de APIs públicas. Para melhor interação, apenas armazenamos os últimos 10 comandos enviados ao bot.
+O IromotBOT respeita a privacidade dos usuários e não armazena nenhuma informação pessoal. Todas as mensagens trocadas com o bot são processadas em tempo real e não são armazenadas em nenhum banco de dados (ainda). Além disso, o bot não compartilha nenhuma informação com terceiros e não exibe anúncios. Todo conteúdo que é efetuado download de terceiros é provido de APIs públicas. Para melhor interação, apenas armazenamos os últimos 10 comandos enviados ao bot.
